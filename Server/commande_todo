@@ -1,0 +1,18 @@
+load aqua_demo
+show aquarium
+add view N2 1000x0+500+500
+show aquarium
+save aqua_bkp
+del view N2
+*Couper le serveur*
+load aqua_bkp
+show aquarium
+*connecter N0*
+*connecter N1*
+*connecter N2*
+*N0* addFish PoissonRouge at 50x50, 40x40, LinearWayPoint
+status
+*N0* startFish PoissonRouge
+*N1* delFish PoissonRouge
+*N2* addFish PoissonClown at 50x50, 20x20, LinearWayPoint
+*N2* startFish PoissonClown

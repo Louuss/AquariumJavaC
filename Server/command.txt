@@ -1,0 +1,15 @@
+load aquarium -> OK
+show aquarium -> OK
+add view .... -> OK
+del view .... -> OK
+save aquarium -> OK
+status -> OK ~~~~~
+addfish .... -> OK
+delFish .... -> OK
+startFish .... -> OK ~~~~~~~
+hello .... -> OK
+getFishes .... -> OK ~~test requis
+ls .... -> NOK ? XXXXXXXX
+getFishesContinously -> OK  ~~test requis
+log ... -> (N)OK
+ping .... -> OK
